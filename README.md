@@ -54,6 +54,7 @@ Key files:
   loss registration.
 - `verl/trainer/main_ppo.py`: PPO trainer entry point with teacher environment
   variables forwarded to Ray workers.
+- `recipe/gkd/teacher`: OPD teacher server.
 
 ---
 
@@ -110,7 +111,7 @@ teacher response must contain:
 - `teacher_topk_logprobs`
 - `teacher_topk_indices`
 
-Start the teacher service before running the OPD training job.
+Start the teacher service using bash script in recipe/gkd/teacher before running the OPD training job.
 
 ### 4. Launch Training
 
