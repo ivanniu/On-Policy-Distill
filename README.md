@@ -143,3 +143,19 @@ ${RAY_DATA_HOME}/ckpts/ON_POLICY_DISTILL/OPD
 ```
 
 Set `CKPTS_DIR` to change the output location.
+
+## Citation
+
+If you find this work helpful for your research, please cite our paper:
+
+```bibtex
+@misc{niu2026breakingtokenizerbarrieronpolicy,
+      title={Breaking the Tokenizer Barrier: On-Policy Distillation across Model Families}, 
+      author={Yifan Niu and Han Xiao and Dongyi Liu and Zelong Wang and Dihong Gong and Yasheng Wang and Jia Li},
+      year={2026},
+      eprint={2606.09456},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2606.09456}, 
+}
+```
